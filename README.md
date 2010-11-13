@@ -5,9 +5,9 @@ googlecode2github is a project designed to facilitate migrating a Google Code pr
 
 Dependencies
 ------------
-The GData Python client: http://code.google.com/p/gdata-python-client/downloads/list
+The GData Python client: [http://code.google.com/p/gdata-python-client/downloads/list](http://code.google.com/p/gdata-python-client/downloads/list)
 
-The python-github2 client: https://github.com/ask/python-github2
+The python-github2 client: [https://github.com/ask/python-github2](https://github.com/ask/python-github2)
 
 Usage
 -----
@@ -16,11 +16,11 @@ The issue-transfer.py script transfers issues from Google Code to GitHub.
 
 If you were transferring issues from a Google Code project named foobar1 to a GitHub project named foobar2, and your username is zippy, you would run the script like this:
 
-$ python issue-transfer.py 
-	--google_username=zippy@gmail.com
-	--google_project=foobar1
-	--github_username=zippy
-	--github_project=zippy/foobar2
-	--github_api_token=4a9e[...]23b1
+	$ python issue-transfer.py 
+		--google_username=zippy@gmail.com
+		--google_project=foobar1
+		--github_username=zippy
+		--github_project=zippy/foobar2
+		--github_api_token=4a9e[...]23b1
 
 You will be prompted for your Google password so as not to require it on the command line and leave it in your .bash_history.
