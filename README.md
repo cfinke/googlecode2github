@@ -31,4 +31,4 @@ Examples
 
 Caveat
 ------
-I've successfully migrated issues from 17 Google Code projects to GitHub with this script, but as always, proceed with caution.
+I've successfully migrated issues from 17 Google Code projects to GitHub with this script, but as always, proceed with caution with scripts that automatically post to Web services on your behalf.
